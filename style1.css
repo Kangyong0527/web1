@@ -1,0 +1,39 @@
+/*
+block lever element
+화면 전체를 쓰는 박스
+*/
+h1{
+  border-bottom: :3px solid black;
+  padding: 20px;
+  margin:0;
+  text-align: center;
+}
+h2{
+  padding: 20px;/*안쪽 여백*/
+  margin:0;/*바깥쪽 여백*/
+  display: block;/*화면상 표시*/
+  width: :150px;/*박스의 폭*/
+}
+ul {
+  border-right:none;
+  width :100px;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+@media(min-width:800px){
+  #grid{
+    display: block;
+  }
+}
+/*
+inline element
+자기 컨텐츠 만큼만 쓰는 박
+*/
+/*a {
+  border-width:5px;
+  border-color:red;
+  border-style:solid;
+}
+*/
